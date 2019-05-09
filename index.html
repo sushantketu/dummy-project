@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Info Form</title>
+	<style>
+	body{
+	background-color:aquamarine;
+}
+</style>
+
+</head>
+
+<body>
+	<h1><center><u>BOOK RECORD FORM</u></center></h1><br>
+
+	<center><form action="add.php" method="post" >
+
+	<b> BOOK-ID:     <input type="number" name="id" placeholder="enter the book id" autofocus required><br><br>
+
+        BOOK-NAME:<input type="text" name="name" placeholder="enter the book name" required><br><br>
+
+        CLASS-NAME:</b><input type="text" name="class" placeholder="enter the class/subject name"><br><br>
+
+        <div style="margin-left: 100px">
+        	<button><input type="submit" value="add" name="submit" ></button>
+        	<button><input type="reset" value="clear"></button>
+	    </div>
+
+	</center></form>
+
+</body>
+</html>
